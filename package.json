@@ -10,7 +10,6 @@
     "debug": "~2.6.9",
     "express": "~4.16.1",
     "ibm-watson": "^5.7.0",
-    "morgan": "~1.9.1",
-    "request": "^2.88.2"
+    "morgan": "~1.9.1"
   }
 }
