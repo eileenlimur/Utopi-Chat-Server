@@ -30,11 +30,10 @@ app.post('/api/translate', function(req, res) {
   };
   languageTranslator.translate(translateParams)
   .then(translationResult => {
-    console.log(JSON.stringify(translationResult, null, 2));
     res.send(JSON.stringify(translationResult, null, 2));
   })
   .catch(err=> {
-    console.log('error:', err);
+    res.send(JSON.stringify(err));
   });
 });
 
