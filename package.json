@@ -1,10 +1,12 @@
 {
   "name": "utopi-chat-server",
-  "version": "0.0.0",
+  "version": "1.0.0",
+  "description": "server to link Utopi-Chat to IBM Translator",
   "private": true,
   "scripts": {
     "start": "node ./bin/www"
   },
+  "author": "Eileen Li",
   "dependencies": {
     "cookie-parser": "~1.4.4",
     "debug": "~2.6.9",
@@ -13,5 +15,8 @@
     "ibm-watson": "^5.7.0",
     "morgan": "~1.9.1",
     "request": "^2.88.2"
+  },
+  "engines": {
+    "node": "10.x"
   }
 }
